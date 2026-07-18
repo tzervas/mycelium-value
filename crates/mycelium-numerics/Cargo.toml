@@ -14,7 +14,7 @@ workspace = true
 [dependencies]
 # The guarantee lattice (meet), the Bound/BoundBasis vocabulary, NormKind — the shared certificate
 # reduces to core's {Bound, GuaranteeStrength} (ADR-010 §3; ADR-011).
-mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "781d3fcceba82acfe6b0eb46650513bd78a2416b" }
+mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "46d2515cbd86d2ae4d1365f4adcd2796737e9f0b" }
 serde.workspace = true
 
 [dev-dependencies]
