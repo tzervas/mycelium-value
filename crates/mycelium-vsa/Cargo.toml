@@ -12,7 +12,7 @@ publish = false
 workspace = true
 
 [dependencies]
-mycelium-core = { path = "../mycelium-core" }
+mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "781d3fcceba82acfe6b0eb46650513bd78a2416b" }
 # NOTE (M-971): `mycelium-select` is NO LONGER a dependency. The only code here that used it — the
 # RFC-0010 decode-methodology selection (`decode_select` + `reconstruct_factors_selected`) — moved to
 # the `mycelium-vsa-decode` crate. Reason: `mycelium-select -[dev]-> mycelium-interp` and
