@@ -12,4 +12,4 @@ publish = false
 workspace = true
 
 [dependencies]
-mycelium-core = { path = "../mycelium-core" }
+mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "781d3fcceba82acfe6b0eb46650513bd78a2416b" }
